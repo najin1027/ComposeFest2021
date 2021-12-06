@@ -105,6 +105,9 @@ dependencies {
     implementation "androidx.compose.material:material-icons-extended:$rootProject.composeVersion"
     implementation "androidx.activity:activity-compose:$rootProject.activityComposeVersion"
 
+    androidTestImplementation "androidx.compose.ui:ui-test-junit4:$version"
+    debugImplementation "androidx.compose.ui:ui-test-manifest:$rootProject.composeVersion"
+
     // Testing dependencies
     androidTestImplementation "androidx.arch.core:core-testing:$rootProject.coreTestingVersion"
     androidTestImplementation "androidx.test.espresso:espresso-contrib:$rootProject.espressoVersion"
